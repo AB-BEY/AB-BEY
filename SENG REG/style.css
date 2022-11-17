@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+   
+    display: flex;
+    padding: 5px;
+    background-color: #004282;
+    color: white;
+}
+
+.header-img{
+    flex: 1;
+}
+.links button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.links{
+    margin: 10px 20px;
+}
+
+.links button a{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+.main-logo{
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.main-div{
+    border: 1px solid gold;
+    width: 600px;
+    margin: 50px auto;
+    box-shadow: 8px 9px 9px 5px#dcd7d7;
+}
+
+.main-text{
+    margin-top: 20px;
+}
+
+.main-text p{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+}
+
+.main-form input{
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.main-form button{
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 12px auto;
+    background-color: #004282;
+    border: none;
+}
+.footer {
+    background-color: #1f1f1f;
+    color: #666666;
+    padding: 50px;
+    margin-top: 30%;
+    justify-content: center;
+  }
+
+  .footer-sec{
+    margin: auto;
+    width: 50%;
+    align-items: center;
+  }
+
+  .foot{
+    width: 20%;
+    margin: auto;
+  }
+  
+  
+
+  .welcome-div{
+    border: 1px solid gold;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 8px 9px 9px 5px#dcd7d7;
+
+  }
+
+  .welcome-div h1{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .welcome-div h4{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    background-color: #fff;
+    
+  }
+
+  .details-div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 1px solid gold;
+    box-shadow: 8px 9px 9px 5px#dcd7d7;
+    padding: 15px;
+  }
+
+  .details-div a{
+    line-height: 50px;
+    color: #004282;
+  }
+
+  .details-div a:hover{
+    cursor: pointer;
+    color: rgb(185,141,59);
+  }
